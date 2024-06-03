@@ -1,0 +1,17 @@
+spriteTypes = {
+	# Dog Unit 
+	spriteType = {
+		name = "gfx_army_type_dog_unit"
+		textureFile = "gfx/interface/planetview/dogunit.dds"
+	}
+	# Mortar Unit 
+	spriteType = {
+		name = "gfx_army_type_mortar_unit"
+		textureFile = "gfx/interface/planetview/mortarunit.dds"
+	}
+	# Artillery Unit 
+	spriteType = {
+		name = "gfx_army_type_artillery_unit"
+		textureFile = "gfx/interface/planetview/artilleryunit.dds"
+	}
+}

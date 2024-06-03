@@ -1,0 +1,74 @@
+# Mechanised Military Armies
+### Offensive Armies
+## Human Armies
+#Dog Unit
+dog_unit = {
+	damage = 1.1
+	health = 1
+	morale = 1.05
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 105
+	icon = gfx_army_type_dog_unit
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 110
+		}
+		upkeep = {
+			energy = 1.1
+		}
+	}
+}
+
+#Mortar Unit
+mortar_unit = {
+	damage = 1.1
+	health = 1
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 1.5
+	war_exhaustion = 1.1
+	time = 120
+	icon = gfx_army_type_mortar_unit
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 125
+		}
+		upkeep = {
+			energy = 1.25
+		}
+	}
+}
+
+#Artillery
+artillery_unit = {
+	damage = 2
+	health = 1
+	morale = 1.4
+	morale_damage = 1
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_artillery_unit
+	prerequisites = {
+		"tech_assault_armies"
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+		upkeep = {
+			energy = 1.5
+		}
+	}
+}
