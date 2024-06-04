@@ -1,0 +1,172 @@
+# Mechanised Military Assault Armies
+## Human Armies
+#Dog Unit
+dog_unit = {
+	damage = 1.1
+	health = 1
+	morale = 1.05
+	morale_damage = 1
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 105
+	icon = gfx_army_type_dog_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 110
+			food = 100
+		}
+		upkeep = {
+			energy = 1.1
+			food = 0.5
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+}
+
+#Mortar Unit
+mortar_unit = {
+	damage = 2
+	health = 0.8
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 1.5
+	war_exhaustion = 1.1
+	time = 120
+	icon = gfx_army_type_mortar_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies2
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 125
+			food = 75
+		}
+		upkeep = {
+			energy = 1.25
+			food = 0.75
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_stronghold"
+		OR = {
+			has_building = building_stronghold
+		}
+	}
+}
+
+#Artillery
+artillery_unit = {
+	damage = 10
+	health = 0.7
+	morale = 1.4
+	morale_damage = 1.5
+	collateral_damage = 3
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_artillery_unit
+	prerequisites = {
+		tech_assault_armies
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2500
+		}
+		upkeep = {
+			energy = 1.5
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+}
+
+#Bomb Drone Unit
+bomb_drone_unit = {
+	damage = 2
+	health = 1
+	morale = 1.4
+	morale_damage = 1
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_bomb_drone_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+		upkeep = {
+			energy = 1.5
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_stronghold"
+		OR = {
+			has_building = building_stronghold
+		}
+	}
+}
+
+#Tank Unit
+tank_unit = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_ship_armor_1
+		tech_mechmilarmy_tank_factory
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 3000
+			alloys = 500
+		}
+		upkeep = {
+			energy = 3
+			alloys = 2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_tank_factory"
+		OR = {
+			has_building = building_mechmil_tank_factory
+		}
+	}
+}

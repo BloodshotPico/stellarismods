@@ -1,0 +1,36 @@
+## Mechanised Military Buildings
+
+building_mechmil_tank_factory = {
+	base_buildtime = 360
+	can_build = yes
+	planetary_ftl_inhibitor = no
+	position_priority = 100
+	can_be_ruined = no
+	category = army
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+	}
+
+	allow = {
+		has_upgraded_capital = yes
+		from = {
+			is_species_class = HUM
+		}
+	}
+	resources = {
+		category = planet_buildings_strongholds
+		cost = {
+			minerals = 10000
+			alloys =  2500
+		}
+		upkeep = {
+			energy = 5
+			alloys = 8
+		}
+	}
+
+	prerequisites = {
+		"tech_mechmilarmy_tank_factory"
+	}
+}

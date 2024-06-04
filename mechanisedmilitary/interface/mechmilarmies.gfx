@@ -14,4 +14,14 @@ spriteTypes = {
 		name = "gfx_army_type_artillery_unit"
 		textureFile = "gfx/interface/planetview/artilleryunit.dds"
 	}
+	# Drone Unit 
+	spriteType = {
+		name = "gfx_army_type_bomb_drone_unit"
+		textureFile = "gfx/interface/planetview/bombdroneunit.dds"
+	}
+	# Tank Unit 
+	spriteType = {
+		name = "gfx_army_type_tank_unit"
+		textureFile = "gfx/interface/planetview/tankunit.dds"
+	}
 }
