@@ -5,10 +5,8 @@
  tech_mechmilarmy_advanced_armies1_desc:0 "Advanced Armies Tier1"
  tech_mechmilarmy_advanced_armies2:0 "Advanced Armies Tier2"
  tech_mechmilarmy_advanced_armies2_desc:0 "Advanced Armies Tier2"
- tech_mechmilarmy_tank_factory:0 "Tank Factories"
- tech_mechmilarmy_tank_factory_desc:0 "Tank Factories"
 
-## Assualt Armies
+### Assualt Armies
 # Dog Unit
  dog_unit:0 "Dog Unit"
  dog_unit_plural:0 "Dog Units"
@@ -29,12 +27,44 @@
  bomb_drone_unit_plural:0 "Dog Units"
  bomb_drone_unit_desc:0 "A bomb drone unit is a military team that operates unmanned aerial vehicles equipped with explosives, designed for precise, remote attacks on enemy targets."
  
- # Tank
- tank_unit:0 "Tank Unit"
- tank_unit_plural:0 "Tank Squadron"
- tank_unit_desc:0 "A tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ ## Tanks
+ # Units
+ tank_unit_mk1:0 "Tank Unit Mk I"
+ tank_unit_mk1_plural:0 "Mk1 Tank Squadron"
+ tank_unit_mk1_desc:0 "A tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_mk2:0 "Tank Unit Mk II"
+ tank_unit_mk2_plural:0 "Mk2 Tank Squadron"
+ tank_unit_mk2_desc:0 "A Mk2 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_mk3:0 "Tank Unit Mk III"
+ tank_unit_mk3_plural:0 "Mk3 Tank Squadron"
+ tank_unit_mk3_desc:0 "A Mk3 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_mk4:0 "Tank Unit Mk IV"
+ tank_unit_mk4_plural:0 "Mk4 Tank Squadron"
+ tank_unit_mk4_desc:0 "A Mk4 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_mk5:0 "Tank Unit Mk V"
+ tank_unit_mk5_plural:0 "Mk5 Tank Squadron"
+ tank_unit_mk5_desc:0 "A Mk5 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_mk6:0 "Tank Unit Mk VI"
+ tank_unit_mk6_plural:0 "Mk6 Tank Squadron"
+ tank_unit_mk6_desc:0 "A Mk6 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ # Buildings
  building_mechmil_tank_factory:0 "Tank Factory"
  building_mechmil_tank_factory_desc:0 "A tank factory is a specialized facility where armored combat vehicles are designed, manufactured, and assembled for military use."
+ building_mechmil_mega_tank_factory:0 "Mega Tank Factory"
+ building_mechmil_mega_tank_factory_desc:0 "A mega tank factory is a specialized facility where new robust and technologically improved combat vehicles are designed, manufactured, and assembled for military use."
+ # Techs
+ tech_mechmilarmy_tank_factory:0 "Tank Factories"
+ tech_mechmilarmy_tank_factory_desc:0 "Tank Factories"
+ tech_mechmilarmy_mega_tank_factory:0 "Mega Tank Factories"
+ tech_mechmilarmy_mega_tank_factory_desc:0 "Mega Tank Factories"
+ tech_mechmilarmy_tank_upgrade_1:0 "Bigger Guns"
+ tech_mechmilarmy_tank_upgrade_1_desc:0 "The second generation had enhanced night-fighting capabilities and in most cases NBC protection. Most western tanks of this generation were armed with the 105 mm Royal Ordnance L7 tank gun or derivatives of it."
+ tech_mechmilarmy_tank_upgrade_2:0 "Composite Armour"
+ tech_mechmilarmy_tank_upgrade_2_desc:0 "The third generation of main battle tanks is characterized by composite armour and computer stabilized fire control systems, which allow firing on the move as well as very high first hit probability on targets up to 2,000 meters away."
+ tech_mechmilarmy_tank_upgrade_3:0 "Uranium Plates"
+ tech_mechmilarmy_tank_upgrade_3_desc:0 "These are third-generation tanks modernized with fourth-generation technology."
+ tech_mechmilarmy_tank_upgrade_4:0 "Uranium Plates"
+ tech_mechmilarmy_tank_upgrade_4_desc:0 "Next generation or fourth generation tanks are still under development or at early stages of their generation. While the term "(fourth) next generation" has no formal basis, these main battle tanks are using the latest technology and designs to compete in the current advanced warfare environment."
  
  ## Custom Tooltips
  requires_tank_factory:0 "Requires a Tank Factory before being able to train these armies."

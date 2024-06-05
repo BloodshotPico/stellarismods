@@ -68,35 +68,6 @@ mortar_unit = {
 	}
 }
 
-#Artillery
-artillery_unit = {
-	damage = 10
-	health = 0.7
-	morale = 1.4
-	morale_damage = 1.5
-	collateral_damage = 3
-	war_exhaustion = 1.3
-	time = 150
-	icon = gfx_army_type_artillery_unit
-	prerequisites = {
-		tech_assault_armies
-	}
-	resources = {
-		category = armies
-		cost = {
-			minerals = 2500
-		}
-		upkeep = {
-			energy = 1.5
-		}
-	}
-	potential = {
-		from = {
-			is_species_class = HUM
-		}
-	}
-}
-
 #Bomb Drone Unit
 bomb_drone_unit = {
 	damage = 2
@@ -132,8 +103,39 @@ bomb_drone_unit = {
 	}
 }
 
+#Artillery
+artillery_unit = {
+	damage = 10
+	health = 0.7
+	morale = 1.4
+	morale_damage = 1.5
+	collateral_damage = 3
+	war_exhaustion = 1.3
+	time = 225
+	icon = gfx_army_type_artillery_unit
+	prerequisites = {
+		tech_assault_armies
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2000
+			alloys = 100
+		}
+		upkeep = {
+			energy = 1.5
+			alloys = 1
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+}
+
 #Tank Unit
-tank_unit = {
+tank_unit_mk1 = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -146,6 +148,44 @@ tank_unit = {
 	prerequisites = {
 		tech_ship_armor_1
 		tech_mechmilarmy_tank_factory
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_tank_factory"
+		OR = {
+			has_building = building_mechmil_tank_factory
+			has_building = building_mechmil_mega_tank_factory
+		}
+	}
+}
+
+tank_unit_mk2 = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_1
 	}
 	resources = {
 		category = armies
@@ -167,6 +207,156 @@ tank_unit = {
 		custom_tooltip = "requires_tank_factory"
 		OR = {
 			has_building = building_mechmil_tank_factory
+			has_building = building_mechmil_mega_tank_factory
+		}
+	}
+}
+
+tank_unit_mk3 = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_2
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 3000
+			alloys = 500
+		}
+		upkeep = {
+			energy = 3
+			alloys = 2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_tank_factory"
+		OR = {
+			has_building = building_mechmil_tank_factory
+			has_building = building_mechmil_mega_tank_factory
+		}
+	}
+}
+
+tank_unit_mk4 = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_mechmilarmy_mega_tank_factory
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 3000
+			alloys = 500
+		}
+		upkeep = {
+			energy = 3
+			alloys = 2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_tank_factory"
+		OR = {
+			has_building = building_mechmil_mega_tank_factory
+		}
+	}
+}
+
+tank_unit_mk5 = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_3
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 3000
+			alloys = 500
+		}
+		upkeep = {
+			energy = 3
+			alloys = 2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_tank_factory"
+		OR = {
+			has_building = building_mechmil_mega_tank_factory
+		}
+	}
+}
+
+tank_unit_mk6 = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_4
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 3000
+			alloys = 500
+		}
+		upkeep = {
+			energy = 3
+			alloys = 2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_tank_factory"
+		OR = {
+			has_building = building_mechmil_mega_tank_factory
 		}
 	}
 }

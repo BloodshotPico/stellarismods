@@ -65,7 +65,8 @@ tech_mechmilarmy_advanced_armies2 = {
 	}
 }
 
-# Tank Factories
+## Tank Techs
+# Tank Factories (Gives access to Mk1, but allows Mk1 - Mk3 to be built here)
 tech_mechmilarmy_tank_factory = {
 	cost = @tier2cost2
 	area = society
@@ -89,6 +90,141 @@ tech_mechmilarmy_tank_factory = {
 		modifier = {
 			factor = 2
 			has_technology = tech_mechmilarmy_advanced_armies2
+		}
+	}
+}
+
+# Tank Upgrades 1 (Gives access to Mk2)
+tech_mechmilarmy_tank_upgrade_1 = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_mechmilarmy_tank_factory
+	}
+	category = {
+		military_theory
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_tank_factory
+		}
+	}
+}
+
+# Tank Upgrades 2 (Gives access to Mk3)
+tech_mechmilarmy_tank_upgrade_2 = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_1
+	}
+	category = {
+		military_theory
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_tank_upgrade_1
+		}
+	}
+}
+
+# Mega Tank Factories (Gives access to Mk4 - Mk6)
+tech_mechmilarmy_mega_tank_factory = {
+	cost = @tier2cost2
+	area = society
+	tier = 3
+	weight = @tier3weight1
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_2
+	}
+	category = {
+		military_theory
+	}
+	is_rare = yes
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_tank_upgrade_2
+		}
+	}
+}
+
+# Tank Upgrades 3 (Gives access to Mk5)
+tech_mechmilarmy_tank_upgrade_3 = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_mechmilarmy_mega_tank_factory
+	}
+	category = {
+		military_theory
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_mega_tank_factory
+		}
+	}
+}
+
+# Tank Upgrades 4 (Gives access to Mk6)
+tech_mechmilarmy_tank_upgrade_4 = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_mechmilarmy_tank_upgrade_3
+	}
+	category = {
+		military_theory
+	}
+	is_rare = yes
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_tank_upgrade_3
 		}
 	}
 }
