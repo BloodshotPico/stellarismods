@@ -32,22 +32,22 @@ dog_unit = {
 }
 
 commando_unit = {
-	damage = 1.5
-	health = 1
-	morale = 1.15
+	damage = 3
+	health = 2
+	morale = 1
 	morale_damage = 1
 	collateral_damage = 1
 	war_exhaustion = 1
 	time = 105
 	icon = gfx_army_type_dog_unit
 	prerequisites = {
-		tech_mechmilarmy_advanced_armies1
+		tech_mechmilarmy_advanced_armies2
 	}
 	resources = {
 		category = armies
 		cost = {
-			minerals = 110
-			food = 100
+			minerals = 250
+			food = 150
 		}
 		upkeep = {
 			energy = 1.1

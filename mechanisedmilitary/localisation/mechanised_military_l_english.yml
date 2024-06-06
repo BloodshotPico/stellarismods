@@ -15,7 +15,7 @@
  dog_unit_desc:0 "A squadron with dogs trained to kill. Though mans best friend for centuries, they're also natural hunters. Given the proper training to "
  
  # Commando Unit
- commando_unit:0 "Commando Team"
+ commando_unit:0 "Commando Squad"
  commando_unit_plural:0 "Commando Platoon"
  commando_unit_desc:0 "Specialized unit for high-risk missions and direct action operations."
  
@@ -72,6 +72,12 @@
  tech_mechmilarmy_tank_upgrade_3_desc:0 "These are third-generation tanks modernized with fourth-generation technology."
  tech_mechmilarmy_tank_upgrade_4:0 "Uranium Plates"
  tech_mechmilarmy_tank_upgrade_4_desc:0 "Next generation or fourth generation tanks are still under development or at early stages of their generation. While the term "(fourth) next generation" has no formal basis, these main battle tanks are using the latest technology and designs to compete in the current advanced warfare environment."
+ 
+ ### Defense Armies
+ # Anti Tank Unit
+ anti_tank_unit:0 "Anti-Tank Unit"
+ anti_tank_unit_plural:0 "Anti-Tank Squadron"
+ anti_tank_unit_desc:0 "An anti-tank unit is a military team equipped with specialized weapons designed to destroy enemy armored vehicles, such as tanks and armored personnel carriers."
  
  ## Custom Tooltips
  requires_tank_factory:0 "Requires a Tank Factory before being able to train these armies."

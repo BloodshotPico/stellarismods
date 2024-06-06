@@ -1,0 +1,48 @@
+# Mechanised Military Assault Armies
+## Human Armies
+# Anti-tank unit
+anti_tank_unit = {
+	defensive = yes
+	damage = 1.5
+	health = 1
+	morale = 1.15
+	is_pop_spawned = no
+	morale_damage = 1
+	collateral_damage = 0
+	war_exhaustion = 0
+	icon = gfx_army_type_dog_unit
+	prerequisites = {
+		tech_mechmilarmy_tank_factory
+	}
+	resources = {
+		category = armies
+		produces = {
+			unity = 0.75
+		}
+		upkeep = {
+			energy = 1.1
+			food = 0.5
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+			NOR = {
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
+				is_sapient = no
+			}
+			OR = {
+				has_building = building_mechmil_mega_tank_factory
+				has_building = building_mechmil_tank_factory
+			}
+		}
+		owner = {
+			is_primitive = no
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
