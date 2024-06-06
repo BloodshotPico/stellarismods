@@ -53,12 +53,12 @@ building_mechmil_mega_tank_factory = {
 	resources = {
 		category = planet_buildings_strongholds
 		cost = {
-			minerals = 10000
-			alloys =  2500
+			minerals = 15000
+			alloys =  5000
 		}
 		upkeep = {
-			energy = 5
-			alloys = 8
+			energy = 10
+			alloys = 16
 		}
 	}
 	prerequisites = {

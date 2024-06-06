@@ -65,6 +65,32 @@ tech_mechmilarmy_advanced_armies2 = {
 	}
 }
 
+tech_mechmilarmy_artillery = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	weight = @tier2weight1
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	category = {
+		military_theory
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_advanced_armies1
+		}
+	}
+}
+
 ## Tank Techs
 # Tank Factories (Gives access to Mk1, but allows Mk1 - Mk3 to be built here)
 tech_mechmilarmy_tank_factory = {

@@ -31,39 +31,32 @@ dog_unit = {
 	}
 }
 
-#Mortar Unit
-mortar_unit = {
-	damage = 2
-	health = 0.8
-	morale = 1.1
+commando_unit = {
+	damage = 1.5
+	health = 1
+	morale = 1.15
 	morale_damage = 1
-	collateral_damage = 1.5
-	war_exhaustion = 1.1
-	time = 120
-	icon = gfx_army_type_mortar_unit
+	collateral_damage = 1
+	war_exhaustion = 1
+	time = 105
+	icon = gfx_army_type_dog_unit
 	prerequisites = {
-		tech_mechmilarmy_advanced_armies2
+		tech_mechmilarmy_advanced_armies1
 	}
 	resources = {
 		category = armies
 		cost = {
-			minerals = 125
-			food = 75
+			minerals = 110
+			food = 100
 		}
 		upkeep = {
-			energy = 1.25
-			food = 0.75
+			energy = 1.1
+			food = 0.5
 		}
 	}
 	potential = {
 		from = {
 			is_species_class = HUM
-		}
-	}
-	allow = {
-		custom_tooltip = "requires_stronghold"
-		OR = {
-			has_building = building_stronghold
 		}
 	}
 }
@@ -103,6 +96,44 @@ bomb_drone_unit = {
 	}
 }
 
+#Mortar Unit
+mortar_unit = {
+	damage = 2
+	health = 0.8
+	morale = 1.1
+	morale_damage = 1
+	collateral_damage = 1.5
+	war_exhaustion = 1.1
+	time = 120
+	icon = gfx_army_type_mortar_unit
+	prerequisites = {
+		tech_mechmilarmy_artillery
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 125
+			food = 75
+			alloys = 25
+		}
+		upkeep = {
+			energy = 1.25
+			food = 0.75
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_stronghold"
+		OR = {
+			has_building = building_stronghold
+		}
+	}
+}
+
 #Artillery
 artillery_unit = {
 	damage = 10
@@ -114,7 +145,7 @@ artillery_unit = {
 	time = 225
 	icon = gfx_army_type_artillery_unit
 	prerequisites = {
-		tech_assault_armies
+		tech_mechmilarmy_artillery
 	}
 	resources = {
 		category = armies
@@ -135,7 +166,7 @@ artillery_unit = {
 }
 
 #Tank Unit
-tank_unit_mk1 = {
+tank_unit_gen1 = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -174,7 +205,7 @@ tank_unit_mk1 = {
 	}
 }
 
-tank_unit_mk2 = {
+tank_unit_gen2 = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -212,7 +243,7 @@ tank_unit_mk2 = {
 	}
 }
 
-tank_unit_mk3 = {
+tank_unit_gen3 = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -250,7 +281,7 @@ tank_unit_mk3 = {
 	}
 }
 
-tank_unit_mk4 = {
+tank_unit_gen4 = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -287,7 +318,7 @@ tank_unit_mk4 = {
 	}
 }
 
-tank_unit_mk5 = {
+tank_unit_gen5 = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -324,7 +355,7 @@ tank_unit_mk5 = {
 	}
 }
 
-tank_unit_mk6 = {
+tank_unit_gen6 = {
 	damage = 8
 	health = 5
 	morale = 2

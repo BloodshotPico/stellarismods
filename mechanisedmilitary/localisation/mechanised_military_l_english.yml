@@ -5,12 +5,19 @@
  tech_mechmilarmy_advanced_armies1_desc:0 "Advanced Armies Tier1"
  tech_mechmilarmy_advanced_armies2:0 "Advanced Armies Tier2"
  tech_mechmilarmy_advanced_armies2_desc:0 "Advanced Armies Tier2"
+ tech_mechmilarmy_artillery:0 "Artillery"
+ tech_mechmilarmy_artillery_desc:0 "Artillery"
 
 ### Assualt Armies
 # Dog Unit
  dog_unit:0 "Dog Unit"
  dog_unit_plural:0 "Dog Units"
  dog_unit_desc:0 "A squadron with dogs trained to kill. Though mans best friend for centuries, they're also natural hunters. Given the proper training to "
+ 
+ # Commando Unit
+ commando_unit:0 "Commando Team"
+ commando_unit_plural:0 "Commando Platoon"
+ commando_unit_desc:0 "Specialized unit for high-risk missions and direct action operations."
  
  # Mortars
  mortar_unit:0 "Mortar Unit"
@@ -29,24 +36,24 @@
  
  ## Tanks
  # Units
- tank_unit_mk1:0 "Tank Unit Mk I"
- tank_unit_mk1_plural:0 "Mk1 Tank Squadron"
- tank_unit_mk1_desc:0 "A tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
- tank_unit_mk2:0 "Tank Unit Mk II"
- tank_unit_mk2_plural:0 "Mk2 Tank Squadron"
- tank_unit_mk2_desc:0 "A Mk2 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
- tank_unit_mk3:0 "Tank Unit Mk III"
- tank_unit_mk3_plural:0 "Mk3 Tank Squadron"
- tank_unit_mk3_desc:0 "A Mk3 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
- tank_unit_mk4:0 "Tank Unit Mk IV"
- tank_unit_mk4_plural:0 "Mk4 Tank Squadron"
- tank_unit_mk4_desc:0 "A Mk4 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
- tank_unit_mk5:0 "Tank Unit Mk V"
- tank_unit_mk5_plural:0 "Mk5 Tank Squadron"
- tank_unit_mk5_desc:0 "A Mk5 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
- tank_unit_mk6:0 "Tank Unit Mk VI"
- tank_unit_mk6_plural:0 "Mk6 Tank Squadron"
- tank_unit_mk6_desc:0 "A Mk6 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_gen1:0 "Gen I - Tank Unit"
+ tank_unit_gen1_plural:0 "Generation 1 Tank Squadron"
+ tank_unit_gen1_desc:0 "A Generation I tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_gen2:0 "Gen II - Tank Unit"
+ tank_unit_gen2_plural:0 "Generation 2 Tank Squadron"
+ tank_unit_gen2_desc:0 "A Mk2 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_gen3:0 "Gen III - Tank Unit"
+ tank_unit_gen3_plural:0 "Generation 3 Tank Squadron"
+ tank_unit_gen3_desc:0 "A Mk3 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_gen4:0 "Gen IV - Tank Unit"
+ tank_unit_gen4_plural:0 "Generation 4 Tank Squadron"
+ tank_unit_gen4_desc:0 "A Mk4 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_gen5:0 "Gen V - Tank Unit"
+ tank_unit_gen5_plural:0 "Generation 5 Tank Squadron"
+ tank_unit_gen5_desc:0 "A Mk5 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
+ tank_unit_gen6:0 "Gen VI - Tank Unit"
+ tank_unit_gen6_plural:0 "Generation 6 Tank Squadron"
+ tank_unit_gen6_desc:0 "A Mk6 tank unit is a military formation that operates armored vehicles equipped with heavy guns, designed for frontline combat and breakthrough operations."
  # Buildings
  building_mechmil_tank_factory:0 "Tank Factory"
  building_mechmil_tank_factory_desc:0 "A tank factory is a specialized facility where armored combat vehicles are designed, manufactured, and assembled for military use."
