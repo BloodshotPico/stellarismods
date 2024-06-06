@@ -95,7 +95,7 @@ tech_mechmilarmy_artillery = {
 # Tank Factories (Gives access to Mk1, but allows Mk1 - Mk3 to be built here)
 tech_mechmilarmy_tank_factory = {
 	cost = @tier2cost2
-	area = society
+	area = engineering
 	tier = 2
 	weight = @tier2weight2
 	prerequisites = {
@@ -103,7 +103,7 @@ tech_mechmilarmy_tank_factory = {
 		tech_mechmilarmy_advanced_armies2
 	}
 	category = {
-		military_theory
+		industry
 	}
 	is_rare = no
 	potential = {
@@ -123,14 +123,14 @@ tech_mechmilarmy_tank_factory = {
 # Tank Upgrades 1 (Gives access to Mk2)
 tech_mechmilarmy_tank_upgrade_1 = {
 	cost = @tier2cost2
-	area = society
+	area = engineering
 	tier = 2
 	weight = @tier2weight2
 	prerequisites = {
 		tech_mechmilarmy_tank_factory
 	}
 	category = {
-		military_theory
+		materials
 	}
 	is_rare = no
 	potential = {
@@ -150,14 +150,14 @@ tech_mechmilarmy_tank_upgrade_1 = {
 # Tank Upgrades 2 (Gives access to Mk3)
 tech_mechmilarmy_tank_upgrade_2 = {
 	cost = @tier2cost2
-	area = society
+	area = engineering
 	tier = 2
 	weight = @tier2weight2
 	prerequisites = {
 		tech_mechmilarmy_tank_upgrade_1
 	}
 	category = {
-		military_theory
+		materials
 	}
 	is_rare = no
 	potential = {
@@ -177,14 +177,14 @@ tech_mechmilarmy_tank_upgrade_2 = {
 # Mega Tank Factories (Gives access to Mk4 - Mk6)
 tech_mechmilarmy_mega_tank_factory = {
 	cost = @tier2cost2
-	area = society
+	area = engineering
 	tier = 3
 	weight = @tier3weight1
 	prerequisites = {
 		tech_mechmilarmy_tank_upgrade_2
 	}
 	category = {
-		military_theory
+		materials
 	}
 	is_rare = yes
 	potential = {
@@ -204,14 +204,14 @@ tech_mechmilarmy_mega_tank_factory = {
 # Tank Upgrades 3 (Gives access to Mk5)
 tech_mechmilarmy_tank_upgrade_3 = {
 	cost = @tier2cost2
-	area = society
+	area = engineering
 	tier = 2
 	weight = @tier2weight2
 	prerequisites = {
 		tech_mechmilarmy_mega_tank_factory
 	}
 	category = {
-		military_theory
+		industry
 	}
 	is_rare = no
 	potential = {
@@ -231,14 +231,14 @@ tech_mechmilarmy_tank_upgrade_3 = {
 # Tank Upgrades 4 (Gives access to Mk6)
 tech_mechmilarmy_tank_upgrade_4 = {
 	cost = @tier2cost2
-	area = society
+	area = engineering
 	tier = 2
 	weight = @tier2weight2
 	prerequisites = {
 		tech_mechmilarmy_tank_upgrade_3
 	}
 	category = {
-		military_theory
+		materials
 	}
 	is_rare = yes
 	potential = {

@@ -1,15 +1,39 @@
 ## Mechanised Military Buildings
 
+# Variables
+@mm1_jobs = 1
+@mm2_jobs = 2
+
+# Tank Factory - Level 1
 building_mechmil_tank_factory = {
 	base_buildtime = 360
 	can_build = yes
 	planetary_ftl_inhibitor = no
 	position_priority = 100
-	can_be_ruined = no
+	can_be_ruined = yes
 	category = army
 
 	potential = {
 		NOT = { has_modifier = resort_colony }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_soldier_add = @mm1_jobs
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @mm1_jobs
+		}
 	}
 
 	allow = {
@@ -41,7 +65,7 @@ building_mechmil_mega_tank_factory = {
 	can_build = no
 	planetary_ftl_inhibitor = no
 	position_priority = 100
-	can_be_ruined = no
+	can_be_ruined = yes
 	category = army
 	potential = {
 		exists = owner
@@ -59,6 +83,24 @@ building_mechmil_mega_tank_factory = {
 		upkeep = {
 			energy = 10
 			alloys = 16
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_soldier_add = @mm2_jobs
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @mm2_jobs
 		}
 	}
 	prerequisites = {
