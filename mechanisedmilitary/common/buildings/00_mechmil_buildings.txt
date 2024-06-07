@@ -6,7 +6,7 @@
 
 # Tank Factory - Level 1
 building_mechmil_tank_factory = {
-	base_buildtime = 360
+	base_buildtime = 180
 	can_build = yes
 	planetary_ftl_inhibitor = no
 	position_priority = 100
