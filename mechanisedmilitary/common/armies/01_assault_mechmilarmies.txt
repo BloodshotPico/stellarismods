@@ -163,6 +163,12 @@ artillery_unit = {
 			is_species_class = HUM
 		}
 	}
+	allow = {
+		custom_tooltip = "requires_fortress"
+		OR = {
+			has_building = building_fortress
+		}
+	}
 }
 
 #Tank Unit

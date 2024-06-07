@@ -3,11 +3,11 @@
 # Anti-tank unit
 anti_tank_unit = {
 	defensive = yes
+	is_pop_spawned = yes
 	damage = 1.5
 	health = 1
 	morale = 1.15
-	is_pop_spawned = no
-	morale_damage = 1
+	morale_damage = 1.0
 	collateral_damage = 0
 	war_exhaustion = 0
 	icon = gfx_army_type_dog_unit
@@ -17,7 +17,13 @@ anti_tank_unit = {
 	resources = {
 		category = armies
 		produces = {
-			unity = 0.75
+			trigger = {
+				exists = owner
+				owner = {
+					has_active_tradition = tr_unyielding_resistance_is_frugal
+				}
+			}
+			unity = 0.5
 		}
 		upkeep = {
 			energy = 1.1
@@ -26,15 +32,16 @@ anti_tank_unit = {
 	}
 	potential = {
 		from = {
-			is_species_class = HUM
 			NOR = {
 				has_trait = "trait_mechanical"
 				has_trait = "trait_machine_unit"
 				is_sapient = no
 			}
+		}
+		planet = {
 			OR = {
-				has_building = building_mechmil_mega_tank_factory
 				has_building = building_mechmil_tank_factory
+				has_building = building_mechmil_mega_tank_factory
 			}
 		}
 		owner = {
@@ -44,5 +51,8 @@ anti_tank_unit = {
 				has_valid_civic = civic_machine_assimilator
 			}
 		}
+	}
+	spawn_chance = {
+		factor = 100
 	}
 }
