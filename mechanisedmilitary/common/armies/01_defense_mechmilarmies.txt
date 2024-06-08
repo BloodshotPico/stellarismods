@@ -10,7 +10,7 @@ anti_tank_unit = {
 	morale_damage = 1.0
 	collateral_damage = 0
 	war_exhaustion = 0
-	icon = gfx_army_type_dog_unit
+	icon = gfx_army_type_antitank_unit
 	prerequisites = {
 		tech_mechmilarmy_tank_factory
 	}
