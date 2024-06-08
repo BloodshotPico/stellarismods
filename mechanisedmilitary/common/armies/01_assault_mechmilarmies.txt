@@ -4,11 +4,11 @@
 dog_unit = {
 	damage = 1.1
 	health = 1
-	morale = 1.05
-	morale_damage = 1
+	morale = 1.15
+	morale_damage = 1.1
 	collateral_damage = 1
 	war_exhaustion = 1
-	time = 105
+	time = 110
 	icon = gfx_army_type_dog_unit
 	prerequisites = {
 		tech_mechmilarmy_advanced_armies1
@@ -31,6 +31,44 @@ dog_unit = {
 	}
 }
 
+#Bomb Drone Unit
+bomb_drone_unit = {
+	damage = 1.25
+	health = 1.1
+	morale = 1.2
+	morale_damage = 1.1
+	collateral_damage = 1.3
+	war_exhaustion = 1.2
+	time = 120
+	icon = gfx_army_type_bomb_drone_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+			food = 50
+			alloys = 10
+		}
+		upkeep = {
+			energy = 1.5
+			alloys = 0.1
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_stronghold"
+		OR = {
+			has_building = building_stronghold
+		}
+	}
+}
+
 commando_unit = {
 	damage = 3
 	health = 2
@@ -38,7 +76,7 @@ commando_unit = {
 	morale_damage = 1
 	collateral_damage = 1
 	war_exhaustion = 1
-	time = 105
+	time = 180
 	icon = gfx_army_type_dog_unit
 	prerequisites = {
 		tech_mechmilarmy_advanced_armies2
@@ -51,36 +89,7 @@ commando_unit = {
 		}
 		upkeep = {
 			energy = 1.1
-			food = 0.5
-		}
-	}
-	potential = {
-		from = {
-			is_species_class = HUM
-		}
-	}
-}
-
-#Bomb Drone Unit
-bomb_drone_unit = {
-	damage = 2
-	health = 1
-	morale = 1.4
-	morale_damage = 1
-	collateral_damage = 2
-	war_exhaustion = 1.3
-	time = 150
-	icon = gfx_army_type_bomb_drone_unit
-	prerequisites = {
-		tech_mechmilarmy_advanced_armies1
-	}
-	resources = {
-		category = armies
-		cost = {
-			minerals = 150
-		}
-		upkeep = {
-			energy = 1.5
+			food = 1
 		}
 	}
 	potential = {
@@ -98,13 +107,13 @@ bomb_drone_unit = {
 
 #Mortar Unit
 mortar_unit = {
-	damage = 2
+	damage = 1.6
 	health = 0.8
 	morale = 1.1
 	morale_damage = 1
 	collateral_damage = 1.5
-	war_exhaustion = 1.1
-	time = 120
+	war_exhaustion = 1.4
+	time = 150
 	icon = gfx_army_type_mortar_unit
 	prerequisites = {
 		tech_mechmilarmy_artillery
@@ -118,7 +127,7 @@ mortar_unit = {
 		}
 		upkeep = {
 			energy = 1.25
-			food = 0.75
+			alloys = 0.5
 		}
 	}
 	potential = {
@@ -140,9 +149,9 @@ artillery_unit = {
 	health = 0.7
 	morale = 1.4
 	morale_damage = 1.5
-	collateral_damage = 3
-	war_exhaustion = 1.3
-	time = 225
+	collateral_damage = 2
+	war_exhaustion = 1.8
+	time = 220
 	icon = gfx_army_type_artillery_unit
 	prerequisites = {
 		tech_mechmilarmy_artillery
@@ -171,8 +180,9 @@ artillery_unit = {
 	}
 }
 
-# Armored Personal Carriers
-apc_unit_gen1 = {
+## Armored Vehicles
+# Light Armoured Vehicles
+lav_unit = {
 	damage = 8
 	health = 5
 	morale = 2
@@ -184,7 +194,49 @@ apc_unit_gen1 = {
 	icon = gfx_army_type_tank_unit
 	prerequisites = {
 		tech_ship_armor_1
-		tech_mechmilarmy_apc_factory
+		tech_mechmilarmy_armoured_vehicles
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_armoured_vehicle_factory"
+		OR = {
+			has_building = building_mechmil_armoured_vehicle_plant
+			has_building = building_mechmil_mega_armoured_vehicle_plant
+			has_building = building_mechmil_ultimate_armoured_vehicle_plant
+			has_building = building_mechmil_vanguard_vehicle_forge
+		}
+	}
+}
+
+# Armoured Personnel Carriers
+apc_unit = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_ship_armor_1
+		tech_mechmilarmy_armoured_vehicles
 	}
 	resources = {
 		category = armies
@@ -205,8 +257,50 @@ apc_unit_gen1 = {
 	allow = {
 		custom_tooltip = "requires_apc_factory"
 		OR = {
-			has_building = building_mechmil_apc_factory
-			has_building = building_mechmil_mega_apc_factory
+			has_building = building_mechmil_armoured_vehicle_plant
+			has_building = building_mechmil_mega_armoured_vehicle_plant
+			has_building = building_mechmil_ultimate_armoured_vehicle_plant
+			has_building = building_mechmil_vanguard_vehicle_forge
+		}
+	}
+}
+
+ifv_unit = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_ship_armor_1
+		tech_mechmilarmy_armoured_vehicles
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_armoured_vehicle_factory"
+		OR = {
+			has_building = building_mechmil_armoured_vehicle_plant
+			has_building = building_mechmil_mega_armoured_vehicle_plant
+			has_building = building_mechmil_ultimate_armoured_vehicle_plant
 			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
