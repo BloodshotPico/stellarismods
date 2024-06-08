@@ -24,4 +24,24 @@ spriteTypes = {
 		name = "gfx_army_type_tank_unit"
 		textureFile = "gfx/interface/planetview/tankunit.dds"
 	}
+	# LAV Unit 
+	spriteType = {
+		name = "gfx_army_type_lav_unit"
+		textureFile = "gfx/interface/planetview/lavunit.dds"
+	}
+	# APC Unit 
+	spriteType = {
+		name = "gfx_army_type_apc_unit"
+		textureFile = "gfx/interface/planetview/apcunit.dds"
+	}
+	# IFV Unit 
+	spriteType = {
+		name = "gfx_army_type_ifv_unit"
+		textureFile = "gfx/interface/planetview/ifvunit.dds"
+	}
+	# Anti-tank Unit
+	spriteType = {
+		name = "gfx_army_type_antitank_unit"
+		textureFile = "gfx/interface/planetview/antitankunit.dds"
+	}
 }

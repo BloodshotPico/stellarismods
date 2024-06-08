@@ -191,7 +191,7 @@ lav_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_tank_unit
+	icon = gfx_army_type_lav_unit
 	prerequisites = {
 		tech_ship_armor_1
 		tech_mechmilarmy_armoured_vehicles
@@ -233,7 +233,7 @@ apc_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_tank_unit
+	icon = gfx_army_type_apc_unit
 	prerequisites = {
 		tech_ship_armor_1
 		tech_mechmilarmy_armoured_vehicles
@@ -274,7 +274,7 @@ ifv_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_tank_unit
+	icon = gfx_army_type_ifv_unit
 	prerequisites = {
 		tech_ship_armor_1
 		tech_mechmilarmy_armoured_vehicles
