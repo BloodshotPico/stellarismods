@@ -34,6 +34,11 @@
  bomb_drone_unit_plural:0 "Dog Units"
  bomb_drone_unit_desc:0 "A bomb drone unit is a military team that operates unmanned aerial vehicles equipped with explosives, designed for precise, remote attacks on enemy targets."
  
+ ## APC
+ # Units
+ # Buildings
+ building_armoured_vehicle_plant:0 ""
+ 
  ## Tanks
  # Units
  tank_unit_gen1:0 "Gen I - Tank Unit"
@@ -79,7 +84,12 @@
  anti_tank_unit_plural:0 "Anti-Tank Squadron"
  anti_tank_unit_desc:0 "An anti-tank unit is a military team equipped with specialized weapons designed to destroy enemy armored vehicles, such as tanks and armored personnel carriers."
  
+ # End Game Buildings
+ building_mechmil_vanguard_vehicle_forge:0 "Vanguard Vehicle Forge"
+ building_mechmil_vanguard_vehicle_forge_desc:0 "A tank factory is a specialized facility where armored combat vehicles are designed, manufactured, and assembled for military use."
+ 
  ## Custom Tooltips
- requires_tank_factory:0 "Requires a Tank Factory before being able to train these armies."
+ requires_tank_factory:0 "Requires a Tank Factory or an Armoured Vehicle Plant before being able to train these armies."
+ requires_apc_factory:0 "Requires a Armoured Personnel Carrier Factory or an Armoured Vehicle Plant before being able to train these armies."
  requires_stronghold:0 "Requires a Stronghold before being able to train these armies."
  requires_fortress:0 "Requires a Fortress before being able to train these armies."
