@@ -7,12 +7,12 @@
  tech_mechmilarmy_advanced_armies2_desc:0 "Advanced Armies Tier2"
  tech_mechmilarmy_artillery:0 "Artillery"
  tech_mechmilarmy_artillery_desc:0 "Artillery"
-
-### Assualt Armies
-# Dog Unit
+ 
+ ### Assualt Armies
+ # Dog Unit
  dog_unit:0 "Dog Unit"
  dog_unit_plural:0 "Dog Units"
- dog_unit_desc:0 "A squadron with dogs trained to kill. Though mans best friend for centuries, they're also natural hunters. Given the proper training to "
+ dog_unit_desc:0 "A squadron with dogs trained to kill. Though mans best friend for centuries, they're also natural hunters. Given the proper training to hunt down selected targets."
  
  # Commando Unit
  commando_unit:0 "Commando Squad"
@@ -34,10 +34,26 @@
  bomb_drone_unit_plural:0 "Dog Units"
  bomb_drone_unit_desc:0 "A bomb drone unit is a military team that operates unmanned aerial vehicles equipped with explosives, designed for precise, remote attacks on enemy targets."
  
- ## APC
+ ## Armoured Vehicles
  # Units
+ lav_unit:0 "Light Armoured Vehicle"
+ lav_unit_plural:0 "Light Armoured Vehicles"
+ lav_unit_desc:0 "Light armoured vehicles are fast and versatile combat vehicles designed for reconnaissance, troop transport, and support roles, offering a balance of mobility and protection."
+ apc_unit:0 "Armoured Personnel Carrier"
+ apc_unit_plural:0 "Armoured Personnel Carriers"
+ apc_unit_desc:0 "Armoured personnel carriers (APCs) are heavily protected vehicles designed to transport infantry safely across combat zones, providing both mobility and defense against small arms fire and shrapnel."
+ ifv_unit:0 "Infantry Fighting Vehicle"
+ ifv_unit_plural:0 "Infantry Fighting Vehicles"
+ ifv_unit_desc:0 "Infantry fighting vehicles (IFVs) are armored combat vehicles that transport infantry while providing fire support with integrated weapons systems, combining mobility, protection, and firepower."
+ 
  # Buildings
- building_armoured_vehicle_plant:0 ""
+ building_mechmil_armoured_vehicle_plant:0 "Armoured Vehicle Plant"
+ building_mechmil_mega_armoured_vehicle_plant:0 "Mega Armoured Vehicle Plant"
+ building_mechmil_ultimate_armoured_vehicle_plant:0 "Ultimate Armoured Vehicle Plant"
+ 
+ # Techs
+ tech_mechmilarmy_armoured_vehicles:0 "Armoured Vehicles"
+ tech_mechmilarmy_armoured_vehicles_upgrade_one:0 "Exotic Layered Armour"
  
  ## Tanks
  # Units
@@ -90,6 +106,6 @@
  
  ## Custom Tooltips
  requires_tank_factory:0 "Requires a Tank Factory or an Armoured Vehicle Plant before being able to train these armies."
- requires_apc_factory:0 "Requires a Armoured Personnel Carrier Factory or an Armoured Vehicle Plant before being able to train these armies."
+ requires_armoured_vehicle_factory:0 "Requires one of the following, Armoured Vehicle Plant, Mega Armoured Vehicle Plant, Ultimate Armoured Vehicle Plant, or a Vanguard Vehicle Forge building to assemble these armies."
  requires_stronghold:0 "Requires a Stronghold before being able to train these armies."
  requires_fortress:0 "Requires a Fortress before being able to train these armies."
