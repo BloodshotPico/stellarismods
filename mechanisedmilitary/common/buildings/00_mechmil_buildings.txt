@@ -60,6 +60,7 @@ building_mechmil_tank_factory = {
 	}
 }
 
+#Tank Factory Level 2
 building_mechmil_mega_tank_factory = {
 	base_buildtime = 360
 	can_build = no
@@ -105,5 +106,54 @@ building_mechmil_mega_tank_factory = {
 	}
 	prerequisites = {
 		"tech_mechmilarmy_mega_tank_factory"
+	}
+}
+
+#End Game Military Vehicle Factory Level 1 (Allows contruction of all land based vehicle units).
+building_mechmil_vanguard_vehicle_forge = {
+	base_buildtime = 360
+	can_build = no
+	planetary_ftl_inhibitor = no
+	position_priority = 100
+	can_be_ruined = yes
+	category = army
+	potential = {
+		exists = owner
+		NOT = { has_modifier = resort_colony }
+	}
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+	resources = {
+		category = planet_buildings_strongholds
+		cost = {
+			minerals = 15000
+			alloys =  5000
+		}
+		upkeep = {
+			energy = 10
+			alloys = 16
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_soldier_add = @mm2_jobs
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @mm2_jobs
+		}
+	}
+	prerequisites = {
+		"tech_mechmilarmy_tank_upgrade_4"
 	}
 }
