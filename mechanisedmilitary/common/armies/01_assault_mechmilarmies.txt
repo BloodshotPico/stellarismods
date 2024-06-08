@@ -171,6 +171,47 @@ artillery_unit = {
 	}
 }
 
+# Armored Personal Carriers
+apc_unit_gen1 = {
+	damage = 8
+	health = 5
+	morale = 2
+	has_morale = yes
+	morale_damage = 2
+	collateral_damage = 2
+	war_exhaustion = 1.3
+	time = 150
+	icon = gfx_army_type_tank_unit
+	prerequisites = {
+		tech_ship_armor_1
+		tech_mechmilarmy_apc_factory
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_apc_factory"
+		OR = {
+			has_building = building_mechmil_apc_factory
+			has_building = building_mechmil_mega_apc_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
+		}
+	}
+}
+
 #Tank Unit
 tank_unit_gen1 = {
 	damage = 8
@@ -207,6 +248,7 @@ tank_unit_gen1 = {
 		OR = {
 			has_building = building_mechmil_tank_factory
 			has_building = building_mechmil_mega_tank_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
 }
@@ -245,6 +287,7 @@ tank_unit_gen2 = {
 		OR = {
 			has_building = building_mechmil_tank_factory
 			has_building = building_mechmil_mega_tank_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
 }
@@ -283,6 +326,7 @@ tank_unit_gen3 = {
 		OR = {
 			has_building = building_mechmil_tank_factory
 			has_building = building_mechmil_mega_tank_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
 }
@@ -320,6 +364,7 @@ tank_unit_gen4 = {
 		custom_tooltip = "requires_tank_factory"
 		OR = {
 			has_building = building_mechmil_mega_tank_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
 }
@@ -357,6 +402,7 @@ tank_unit_gen5 = {
 		custom_tooltip = "requires_tank_factory"
 		OR = {
 			has_building = building_mechmil_mega_tank_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
 }
@@ -394,6 +440,7 @@ tank_unit_gen6 = {
 		custom_tooltip = "requires_tank_factory"
 		OR = {
 			has_building = building_mechmil_mega_tank_factory
+			has_building = building_mechmil_vanguard_vehicle_forge
 		}
 	}
 }
