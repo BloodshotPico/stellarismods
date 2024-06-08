@@ -255,7 +255,7 @@ apc_unit = {
 		}
 	}
 	allow = {
-		custom_tooltip = "requires_apc_factory"
+		custom_tooltip = "requires_armoured_vehicle_factory"
 		OR = {
 			has_building = building_mechmil_armoured_vehicle_plant
 			has_building = building_mechmil_mega_armoured_vehicle_plant
@@ -277,7 +277,7 @@ ifv_unit = {
 	icon = gfx_army_type_ifv_unit
 	prerequisites = {
 		tech_ship_armor_1
-		tech_mechmilarmy_armoured_vehicles
+		tech_mechmilarmy_armoured_vehicles_upgrade_one
 	}
 	resources = {
 		category = armies
