@@ -79,6 +79,60 @@ tech_mechmilarmy_artillery = {
 	}
 }
 
+## Armoured Vehicle Techs
+tech_mechmilarmy_armoured_vehicles = {
+	cost = @tier2cost2
+	area = engineering
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_ship_armor_1
+		tech_mechmilarmy_advanced_armies2
+	}
+	category = {
+		industry
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_advanced_armies2
+		}
+	}
+}
+
+tech_mechmilarmy_armoured_vehicles_upgrade_one = {
+	cost = @tier2cost2
+	area = engineering
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_mechmilarmy_armoured_vehicles
+	}
+	category = {
+		industry
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_advanced_armies2
+		}
+	}
+}
+
 ## Tank Techs
 # Tank Factories (Gives access to Mk1, but allows Mk1 - Mk3 to be built here)
 tech_mechmilarmy_tank_factory = {
@@ -87,8 +141,9 @@ tech_mechmilarmy_tank_factory = {
 	tier = 2
 	weight = @tier2weight2
 	prerequisites = {
-		tech_ship_armor_1
-		tech_mechmilarmy_advanced_armies2
+		tech_ship_armor_2
+		tech_mechmilarmy_armoured_vehicles
+		tech_mass_drivers_2
 	}
 	category = {
 		industry
