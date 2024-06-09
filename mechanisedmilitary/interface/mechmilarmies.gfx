@@ -4,6 +4,11 @@ spriteTypes = {
 		name = "gfx_army_type_dog_unit"
 		textureFile = "gfx/interface/planetview/dogunit.dds"
 	}
+	# Paratrooper Unit 
+	spriteType = {
+		name = "gfx_army_type_dog_unit"
+		textureFile = "gfx/interface/planetview/paratrooperunit.dds"
+	}
 	# Mortar Unit 
 	spriteType = {
 		name = "gfx_army_type_mortar_unit"
