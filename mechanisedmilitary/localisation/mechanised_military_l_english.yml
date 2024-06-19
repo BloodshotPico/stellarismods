@@ -1,10 +1,10 @@
 ﻿l_english:
 
 ## Techs
- tech_mechmilarmy_advanced_armies1:0 "Advanced Armies Tier1"
- tech_mechmilarmy_advanced_armies1_desc:0 "Advanced Armies Tier1"
- tech_mechmilarmy_advanced_armies2:0 "Advanced Armies Tier2"
- tech_mechmilarmy_advanced_armies2_desc:0 "Advanced Armies Tier2"
+ tech_mechmilarmy_advanced_armies1:0 "Advanced Armies I"
+ tech_mechmilarmy_advanced_armies1_desc:0 "Advanced Armies I"
+ tech_mechmilarmy_advanced_armies2:0 "Advanced Armies II"
+ tech_mechmilarmy_advanced_armies2_desc:0 "Advanced Armies II"
  tech_mechmilarmy_artillery:0 "Artillery"
  tech_mechmilarmy_artillery_desc:0 "Artillery"
  
@@ -13,6 +13,11 @@
  dog_unit:0 "Dog Unit"
  dog_unit_plural:0 "Dog Units"
  dog_unit_desc:0 "A squadron with dogs trained to kill. Though mans best friend for centuries, they're also natural hunters. Given the proper training to hunt down selected targets."
+ 
+ # Paratrooper Unit
+ paratrooper_unit:0 "Paratrooper Unit"
+ paratrooper_unit_plural:0 "Paratrooper Units"
+ paratrooper_unit_desc:0 "Traditionally paratroopers fight only as light infantry armed with small arms and light weapons, although some paratroopers can also function as artillerymen or mechanized infantry by utilizing field guns, infantry fighting vehicles and light tanks that are airdropped together into the combat zone."
  
  # Commando Unit
  commando_unit:0 "Commando Squad"
@@ -94,6 +99,15 @@
  tech_mechmilarmy_tank_upgrade_4:0 "Uranium Plates"
  tech_mechmilarmy_tank_upgrade_4_desc:0 "Next generation or fourth generation tanks are still under development or at early stages of their generation. While the term "(fourth) next generation" has no formal basis, these main battle tanks are using the latest technology and designs to compete in the current advanced warfare environment."
  
+ ## Naval Armies
+ hovercraft_unit:0 "Hovercraft Unit"
+ hovercraft_unit_desc:0 "Hovercraft will accomplish any task performed by a fast boat, but will also operate where no boat can venture. Over land and sea mines, sand, mud, ice, snow, rocks, weeds, logs, debris and rapids they are not restricted by suitable water depths."
+ hovercraft_unit_plural:0 "Hovercraft Fleet"
+ building_mechmil_small_naval_dock:0 "Small Naval Dock"
+ building_mechmil_small_naval_dock:0 "Small Naval Dock that allows the training of some small water craft military vehicles."
+ tech_mechmilarmy_naval_warfare:0 "Naval Warfare"
+ tech_mechmilarmy_naval_warfare_desc:0 "Naval Warfare"
+ 
  ### Defense Armies
  # Anti Tank Unit
  anti_tank_unit:0 "Anti-Tank Unit"
@@ -109,3 +123,4 @@
  requires_armoured_vehicle_factory:0 "Requires one of the following, Armoured Vehicle Plant, Mega Armoured Vehicle Plant, Ultimate Armoured Vehicle Plant, or a Vanguard Vehicle Forge building to assemble these armies."
  requires_stronghold:0 "Requires a Stronghold before being able to train these armies."
  requires_fortress:0 "Requires a Fortress before being able to train these armies."
+ requires_naval_dock:0 "Requires at least a Small Naval Dock to train these armies."

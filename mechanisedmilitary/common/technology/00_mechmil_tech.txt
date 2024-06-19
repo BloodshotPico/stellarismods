@@ -297,3 +297,34 @@ tech_mechmilarmy_tank_upgrade_4 = {
 		}
 	}
 }
+
+## Naval Techs
+tech_mechmilarmy_naval_warfare = {
+	cost = @tier2cost2
+	area = engineering
+	tier = 2
+	weight = @tier2weight2
+	prerequisites = {
+		tech_ship_armor_1
+		tech_mechmilarmy_advanced_armies2
+	}
+	category = {
+		industry
+	}
+	is_rare = no
+	potential = {
+		founder_species = {
+			is_species_class = HUM
+		}
+		any_planet_within_border = {
+			is_planet_class = pc_ocean
+		}
+	}
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 2
+			has_technology = tech_mechmilarmy_advanced_armies2
+		}
+	}
+}
