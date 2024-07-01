@@ -49,4 +49,9 @@ spriteTypes = {
 		name = "gfx_army_type_antitank_unit"
 		textureFile = "gfx/interface/planetview/antitankunit.dds"
 	}
+	# Hovercraft Unit
+	spriteType = {
+		name = "gfx_army_type_hovercraft_unit"
+		textureFile = "gfx/interface/planetview/hovercraftunit.dds"
+	}
 }
