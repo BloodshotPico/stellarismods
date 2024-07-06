@@ -591,7 +591,7 @@ battle_cruiser_boat_unit = {
 	time = 150
 	icon = gfx_army_type_lav_unit
 	prerequisites = {
-		tech_mechmilarmy_naval_warfare
+		tech_mechmilarmy_naval_warfare_2
 	}
 	resources = {
 		category = armies
@@ -613,7 +613,6 @@ battle_cruiser_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
 			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
@@ -631,7 +630,7 @@ battleship_boat_unit = {
 	time = 150
 	icon = gfx_army_type_lav_unit
 	prerequisites = {
-		tech_mechmilarmy_naval_warfare
+		tech_mechmilarmy_naval_warfare_2
 	}
 	resources = {
 		category = armies
@@ -653,7 +652,6 @@ battleship_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
 			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
@@ -671,7 +669,7 @@ battleship_boat_unit = {
 	time = 150
 	icon = gfx_army_type_lav_unit
 	prerequisites = {
-		tech_mechmilarmy_naval_warfare
+		tech_mechmilarmy_naval_warfare_2
 	}
 	resources = {
 		category = armies
@@ -693,7 +691,6 @@ battleship_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
 			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
@@ -711,7 +708,7 @@ stealth_boat_unit = {
 	time = 150
 	icon = gfx_army_type_lav_unit
 	prerequisites = {
-		tech_mechmilarmy_naval_warfare
+		tech_mechmilarmy_naval_warfare_2
 	}
 	resources = {
 		category = armies
@@ -733,7 +730,6 @@ stealth_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
 			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
@@ -773,8 +769,6 @@ amphibious_assualt_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
-			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
 	}
@@ -813,8 +807,6 @@ helicopter_carrier_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
-			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
 	}
@@ -853,8 +845,6 @@ aircraft_carrier_boat_unit = {
 	allow = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
-			has_building = building_mechmil_small_naval_dock
-			has_building = building_mechmil_medium_naval_dock
 			has_building = building_mechmil_large_naval_dock
 		}
 	}
@@ -871,7 +861,7 @@ submarine_unit = {
 	time = 150
 	icon = gfx_army_type_lav_unit
 	prerequisites = {
-		tech_mechmilarmy_naval_warfare_3
+		tech_mechmilarmy_submarines
 	}
 	resources = {
 		category = armies
