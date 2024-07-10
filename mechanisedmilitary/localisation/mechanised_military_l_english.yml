@@ -155,6 +155,8 @@
  tech_mechmilarmy_naval_warfare_desc:0 "Naval Warfare"
  tech_mechmilarmy_naval_warfare_2:0 "Reinforced Hulls"
  tech_mechmilarmy_naval_warfare_2_desc:0 "Reinforced Hulls"
+ tech_mechmilarmy_naval_warfare_3:0 "Naval Warfare 3"
+ tech_mechmilarmy_naval_warfare_3_desc:0 "Naval Warfare 3"
  
  ### Defense Armies
  # Anti Tank Unit
