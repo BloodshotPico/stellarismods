@@ -229,47 +229,7 @@ hovercraft_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_lav_unit
-	prerequisites = {
-		tech_mechmilarmy_naval_warfare
-	}
-	resources = {
-		category = armies
-		cost = {
-			minerals = 2750
-			alloys = 120
-		}
-		upkeep = {
-			energy = 3
-			alloys = 1.2
-		}
-	}
-	potential = {
-		from = {
-			is_species_class = HUM
-			is_planet_class = pc_ocean
-		}
-	}
-	allow = {
-		custom_tooltip = "requires_naval_dock"
-		OR = {
-			has_building = building_mechmil_small_naval_dock
-			has_building = building_mechmil_medium_naval_dock
-			has_building = building_mechmil_large_naval_dock
-		}
-	}
-}
-
-fast_attack_craft_unit = {
-	damage = 8
-	health = 5
-	morale = 2
-	has_morale = yes
-	morale_damage = 2
-	collateral_damage = 2
-	war_exhaustion = 1.3
-	time = 150
-	icon = gfx_army_type_lav_unit
+	icon = gfx_army_type_hovercraft_unit
 	prerequisites = {
 		tech_mechmilarmy_naval_warfare
 	}
