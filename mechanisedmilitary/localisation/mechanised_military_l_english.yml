@@ -100,6 +100,9 @@
  tech_mechmilarmy_tank_upgrade_4_desc:0 "Next generation or fourth generation tanks are still under development or at early stages of their generation. While the term "(fourth) next generation" has no formal basis, these main battle tanks are using the latest technology and designs to compete in the current advanced warfare environment."
  
  ## Naval Armies
+ rib_unit:0 "RIB Unit"
+ rib_unit_desc:0 "A rigid inflatable boat (RIB), also rigid-hull inflatable boat or rigid-hulled inflatable boat (RHIB), is a lightweight but high-performance and high-capacity boat constructed with a rigid hull bottom joined to side-forming air tubes that are inflated with air to a high pressure so as to give the sides resilient rigidity along the boat's topsides."
+ rib_unit_plural:0 "RIB Squad"
  hovercraft_unit:0 "Hovercraft Unit"
  hovercraft_unit_desc:0 "Hovercraft will accomplish any task performed by a fast boat, but will also operate where no boat can venture. Over land and sea mines, sand, mud, ice, snow, rocks, weeds, logs, debris and rapids they are not restricted by suitable water depths."
  hovercraft_unit_plural:0 "Hovercraft Fleet"
