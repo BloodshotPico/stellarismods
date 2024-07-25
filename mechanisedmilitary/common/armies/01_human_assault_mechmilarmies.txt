@@ -5,7 +5,7 @@
 ##### Human Armies #####################################################
 ########################################################################
 ## Ground Units
-#Dog Unit
+# 1 Dog Unit
 dog_unit = {
 	damage = 1.1
 	health = 1
@@ -36,7 +36,7 @@ dog_unit = {
 	}
 }
 
-# Paratrooper Unit
+# 2 Paratrooper Unit
 paratrooper_unit = {
 	damage = 3
 	health = 2
@@ -73,7 +73,7 @@ paratrooper_unit = {
 	}
 }
 
-#Bomb Drone Unit
+# 3 Bomb Drone Unit
 bomb_drone_unit = {
 	damage = 1.25
 	health = 1.1
@@ -111,6 +111,7 @@ bomb_drone_unit = {
 	}
 }
 
+# 4 Commando Unit
 commando_unit = {
 	damage = 3
 	health = 2
@@ -147,7 +148,7 @@ commando_unit = {
 	}
 }
 
-#Mortar Unit
+# 5 Mortar Unit
 mortar_unit = {
 	damage = 1.6
 	health = 0.8
@@ -185,7 +186,7 @@ mortar_unit = {
 	}
 }
 
-#Artillery
+# 6 Artillery
 artillery_unit = {
 	damage = 10
 	health = 0.7
@@ -223,7 +224,7 @@ artillery_unit = {
 }
 
 ## Armored Vehicles
-# Light Armoured Vehicles
+# 7 Light Armoured Vehicles
 lav_unit = {
 	damage = 8
 	health = 5
@@ -265,7 +266,7 @@ lav_unit = {
 	}
 }
 
-# Armoured Personnel Carriers
+# 8 Armoured Personnel Carriers
 apc_unit = {
 	damage = 8
 	health = 5
@@ -307,6 +308,7 @@ apc_unit = {
 	}
 }
 
+# 8 Infantry Fighting Vehicle
 ifv_unit = {
 	damage = 8
 	health = 5
@@ -348,7 +350,7 @@ ifv_unit = {
 	}
 }
 
-#Tank Unit
+# 9 Tank Unit
 tank_unit_gen1 = {
 	damage = 8
 	health = 5
@@ -389,6 +391,7 @@ tank_unit_gen1 = {
 	}
 }
 
+# 10 Tank v2
 tank_unit_gen2 = {
 	damage = 8
 	health = 5
@@ -428,6 +431,7 @@ tank_unit_gen2 = {
 	}
 }
 
+# 11 Tank v3
 tank_unit_gen3 = {
 	damage = 8
 	health = 5
@@ -467,6 +471,7 @@ tank_unit_gen3 = {
 	}
 }
 
+# 12 Tank v4
 tank_unit_gen4 = {
 	damage = 8
 	health = 5
@@ -505,6 +510,7 @@ tank_unit_gen4 = {
 	}
 }
 
+# 13 Tank v5
 tank_unit_gen5 = {
 	damage = 8
 	health = 5
@@ -543,6 +549,7 @@ tank_unit_gen5 = {
 	}
 }
 
+# 14 Tank v6
 tank_unit_gen6 = {
 	damage = 8
 	health = 5
@@ -584,7 +591,7 @@ tank_unit_gen6 = {
 ### Sea Planet Only (Can only be created on Ocean Worlds)
 ## Naval Units
 
-# RIB
+# 15 RIB
 rib_unit = {
 	damage = 8
 	health = 5
@@ -624,7 +631,7 @@ rib_unit = {
 	}
 }
 
-# Hovercraft
+# 16 Hovercraft
 hovercraft_unit = {
 	damage = 8
 	health = 5
@@ -664,7 +671,7 @@ hovercraft_unit = {
 	}
 }
 
-# Fast Attack Craft
+# 17 Fast Attack Craft
 fast_attack_craft_unit = {
 	damage = 8
 	health = 5
@@ -704,7 +711,7 @@ fast_attack_craft_unit = {
 	}
 }
 
-# Patrol Boat
+# 18 Patrol Boat
 patrol_boat_unit = {
 	damage = 8
 	health = 5
@@ -744,7 +751,7 @@ patrol_boat_unit = {
 	}
 }
 
-# Corvette
+# 19 Corvette
 corvette_boat_unit = {
 	damage = 8
 	health = 5
@@ -784,7 +791,7 @@ corvette_boat_unit = {
 	}
 }
 
-# Frigate
+# 20 Frigate
 frigate_boat_unit = {
 	damage = 8
 	health = 5
@@ -824,7 +831,7 @@ frigate_boat_unit = {
 	}
 }
 
-# Destroyer
+# 21 Destroyer
 destroyer_boat_unit = {
 	damage = 8
 	health = 5
@@ -864,7 +871,7 @@ destroyer_boat_unit = {
 	}
 }
 
-# Light Cruiser
+# 22 Light Cruiser
 light_cruiser_boat_unit = {
 	damage = 8
 	health = 5
@@ -904,7 +911,7 @@ light_cruiser_boat_unit = {
 	}
 }
 
-# Heavy Cruiser
+# 23 Heavy Cruiser
 heavy_cruiser_boat_unit = {
 	damage = 8
 	health = 5
@@ -944,7 +951,7 @@ heavy_cruiser_boat_unit = {
 	}
 }
 
-# Battleship Cruiser
+# 24 Battleship Cruiser
 battle_cruiser_boat_unit = {
 	damage = 8
 	health = 5
@@ -983,7 +990,7 @@ battle_cruiser_boat_unit = {
 	}
 }
 
-# Battleship
+# 25 Battleship
 battleship_boat_unit = {
 	damage = 8
 	health = 5
@@ -1022,7 +1029,7 @@ battleship_boat_unit = {
 	}
 }
 
-# Stealth Boat
+# 26 Stealth Boat
 stealth_boat_unit = {
 	damage = 8
 	health = 5
@@ -1061,7 +1068,7 @@ stealth_boat_unit = {
 	}
 }
 
-# Amphibious Assault Boat
+# 27 Amphibious Assault Boat
 amphibious_assualt_boat_unit = {
 	damage = 8
 	health = 5
@@ -1099,7 +1106,7 @@ amphibious_assualt_boat_unit = {
 	}
 }
 
-# Helicopter Carrier
+# 28 Helicopter Carrier
 helicopter_carrier_boat_unit = {
 	damage = 8
 	health = 5
@@ -1137,7 +1144,7 @@ helicopter_carrier_boat_unit = {
 	}
 }
 
-# Aircraft Carrier
+# 29 Aircraft Carrier
 aircraft_carrier_boat_unit = {
 	damage = 8
 	health = 5
@@ -1175,7 +1182,7 @@ aircraft_carrier_boat_unit = {
 	}
 }
 
-# Submarine Unit
+# 30 Submarine Unit
 submarine_unit = {
 	damage = 8
 	health = 5
@@ -1214,7 +1221,7 @@ submarine_unit = {
 	}
 }
 
-# Nuclear Submarine Unit
+# 31 Nuclear Submarine Unit
 nuclear_submarine_unit = {
 	damage = 8
 	health = 5
