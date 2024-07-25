@@ -4,7 +4,7 @@
 @mm1_jobs = 1
 @mm2_jobs = 2
 
-#Armoured Vehicle Plant Level 1
+# Base Building - Armoured Vehicle Plant Level 1
 building_mechmil_armoured_vehicle_plant = {
 	base_buildtime = 180
 	can_build = yes
@@ -61,7 +61,7 @@ building_mechmil_armoured_vehicle_plant = {
 	}
 }
 
-#Armoured Vehicle Plant Level 2
+# Upgrade Building - Armoured Vehicle Plant Level 2
 building_mechmil_mega_armoured_vehicle_plant = {
 	base_buildtime = 360
 	can_build = no
@@ -113,7 +113,7 @@ building_mechmil_mega_armoured_vehicle_plant = {
 	}
 }
 
-#Armoured Vehicle Plant Level 3
+# Upgrade Building - Armoured Vehicle Plant Level 3
 building_mechmil_ultimate_armoured_vehicle_plant = {
 	base_buildtime = 360
 	can_build = no
@@ -162,7 +162,7 @@ building_mechmil_ultimate_armoured_vehicle_plant = {
 	}
 }
 
-# Tank Factory - Level 1
+# Base Building - Tank Factory - Level 1
 building_mechmil_tank_factory = {
 	base_buildtime = 180
 	can_build = yes
@@ -218,7 +218,7 @@ building_mechmil_tank_factory = {
 	}
 }
 
-#Tank Factory Level 2
+# Upgrade Building - Tank Factory Level 2
 building_mechmil_mega_tank_factory = {
 	base_buildtime = 360
 	can_build = no
@@ -267,7 +267,7 @@ building_mechmil_mega_tank_factory = {
 	}
 }
 
-#End Game Military Vehicle Factory Level 1 (Allows contruction of all land based vehicle units).
+# Base Building - End Game Military Vehicle Factory Level 1 (Allows contruction of all land based vehicle units).
 building_mechmil_vanguard_vehicle_forge = {
 	base_buildtime = 360
 	can_build = no
@@ -317,7 +317,7 @@ building_mechmil_vanguard_vehicle_forge = {
 }
 
 ## Naval Buildings
-#Small Naval Dock
+# Base Building - Small Naval Dock
 building_mechmil_small_naval_dock = {
 	base_buildtime = 180
 	can_build = yes
@@ -374,6 +374,7 @@ building_mechmil_small_naval_dock = {
 	}
 }
 
+# Upgrade Building - Medium Naval Dock
 building_mechmil_medium_naval_dock = {
 	base_buildtime = 180
 	can_build = no
@@ -430,6 +431,7 @@ building_mechmil_medium_naval_dock = {
 	}
 }
 
+# Upgrade Building - Large Naval Dock
 building_mechmil_large_naval_dock = {
 	base_buildtime = 180
 	can_build = no
