@@ -594,7 +594,7 @@ rib_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_hovercraft_unit
+	icon = gfx_army_type_rib_unit
 	prerequisites = {
 		tech_mechmilarmy_naval_warfare
 	}
@@ -612,7 +612,6 @@ rib_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -653,7 +652,6 @@ hovercraft_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -666,6 +664,7 @@ hovercraft_unit = {
 	}
 }
 
+# Fast Attack Craft
 fast_attack_craft_unit = {
 	damage = 8
 	health = 5
@@ -675,7 +674,7 @@ fast_attack_craft_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_lav_unit
+	icon = gfx_army_type_fast_attack_craft_unit
 	prerequisites = {
 		tech_mechmilarmy_naval_warfare
 	}
@@ -693,7 +692,6 @@ fast_attack_craft_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -706,6 +704,7 @@ fast_attack_craft_unit = {
 	}
 }
 
+# Patrol Boat
 patrol_boat_unit = {
 	damage = 8
 	health = 5
@@ -715,7 +714,7 @@ patrol_boat_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_lav_unit
+	icon = gfx_army_type_patrol_boat_unit
 	prerequisites = {
 		tech_mechmilarmy_naval_warfare
 	}
@@ -733,7 +732,6 @@ patrol_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -746,6 +744,7 @@ patrol_boat_unit = {
 	}
 }
 
+# Corvette
 corvette_boat_unit = {
 	damage = 8
 	health = 5
@@ -755,7 +754,7 @@ corvette_boat_unit = {
 	collateral_damage = 2
 	war_exhaustion = 1.3
 	time = 150
-	icon = gfx_army_type_lav_unit
+	icon = gfx_army_type_corvette_boat_unit
 	prerequisites = {
 		tech_mechmilarmy_naval_warfare
 	}
@@ -773,7 +772,6 @@ corvette_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -786,6 +784,7 @@ corvette_boat_unit = {
 	}
 }
 
+# Frigate
 frigate_boat_unit = {
 	damage = 8
 	health = 5
@@ -813,7 +812,6 @@ frigate_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -826,6 +824,7 @@ frigate_boat_unit = {
 	}
 }
 
+# Destroyer
 destroyer_boat_unit = {
 	damage = 8
 	health = 5
@@ -853,7 +852,6 @@ destroyer_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -866,6 +864,7 @@ destroyer_boat_unit = {
 	}
 }
 
+# Light Cruiser
 light_cruiser_boat_unit = {
 	damage = 8
 	health = 5
@@ -893,7 +892,6 @@ light_cruiser_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -906,6 +904,7 @@ light_cruiser_boat_unit = {
 	}
 }
 
+# Heavy Cruiser
 heavy_cruiser_boat_unit = {
 	damage = 8
 	health = 5
@@ -933,7 +932,6 @@ heavy_cruiser_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -946,6 +944,7 @@ heavy_cruiser_boat_unit = {
 	}
 }
 
+# Battleship Cruiser
 battle_cruiser_boat_unit = {
 	damage = 8
 	health = 5
@@ -973,7 +972,6 @@ battle_cruiser_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -985,6 +983,7 @@ battle_cruiser_boat_unit = {
 	}
 }
 
+# Battleship
 battleship_boat_unit = {
 	damage = 8
 	health = 5
@@ -1012,7 +1011,6 @@ battleship_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -1024,45 +1022,7 @@ battleship_boat_unit = {
 	}
 }
 
-battleship_boat_unit = {
-	damage = 8
-	health = 5
-	morale = 2
-	has_morale = yes
-	morale_damage = 2
-	collateral_damage = 2
-	war_exhaustion = 1.3
-	time = 150
-	icon = gfx_army_type_lav_unit
-	prerequisites = {
-		tech_mechmilarmy_naval_warfare_2
-	}
-	resources = {
-		category = armies
-		cost = {
-			minerals = 2750
-			alloys = 120
-		}
-		upkeep = {
-			energy = 3
-			alloys = 1.2
-		}
-	}
-	potential = {
-		from = {
-			is_species_class = HUM
-			is_planet_class = pc_ocean
-		}
-	}
-	allow = {
-		custom_tooltip = "requires_naval_dock"
-		OR = {
-			has_building = building_mechmil_medium_naval_dock
-			has_building = building_mechmil_large_naval_dock
-		}
-	}
-}
-
+# Stealth Boat
 stealth_boat_unit = {
 	damage = 8
 	health = 5
@@ -1090,7 +1050,6 @@ stealth_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -1102,6 +1061,7 @@ stealth_boat_unit = {
 	}
 }
 
+# Amphibious Assault Boat
 amphibious_assualt_boat_unit = {
 	damage = 8
 	health = 5
@@ -1129,7 +1089,6 @@ amphibious_assualt_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -1140,6 +1099,7 @@ amphibious_assualt_boat_unit = {
 	}
 }
 
+# Helicopter Carrier
 helicopter_carrier_boat_unit = {
 	damage = 8
 	health = 5
@@ -1167,7 +1127,6 @@ helicopter_carrier_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -1178,6 +1137,7 @@ helicopter_carrier_boat_unit = {
 	}
 }
 
+# Aircraft Carrier
 aircraft_carrier_boat_unit = {
 	damage = 8
 	health = 5
@@ -1205,7 +1165,6 @@ aircraft_carrier_boat_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -1216,6 +1175,7 @@ aircraft_carrier_boat_unit = {
 	}
 }
 
+# Submarine Unit
 submarine_unit = {
 	damage = 8
 	health = 5
@@ -1243,7 +1203,6 @@ submarine_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {
@@ -1255,6 +1214,7 @@ submarine_unit = {
 	}
 }
 
+# Nuclear Submarine Unit
 nuclear_submarine_unit = {
 	damage = 8
 	health = 5
@@ -1282,7 +1242,6 @@ nuclear_submarine_unit = {
 	potential = {
 		from = {
 			is_species_class = HUM
-			is_planet_class = pc_ocean
 		}
 	}
 	allow = {

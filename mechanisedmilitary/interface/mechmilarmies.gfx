@@ -54,4 +54,24 @@ spriteTypes = {
 		name = "gfx_army_type_hovercraft_unit"
 		textureFile = "gfx/interface/planetview/hovercraftunit.dds"
 	}
+	# RIB Unit
+	spriteType = {
+		name = "gfx_army_type_rib_unit"
+		textureFile = "gfx/interface/planetview/ribunit.dds"
+	}
+	# Fast Attack Craft Unit
+	spriteType = {
+		name = "gfx_army_type_fast_attack_craft_unit"
+		textureFile = "gfx/interface/planetview/fastattackcraftunit.dds"
+	}
+	# Patrol Boat Unit
+	spriteType = {
+		name = "gfx_army_type_patrol_boat_unit"
+		textureFile = "gfx/interface/planetview/patrolboatunit.dds"
+	}
+	# Corvette Boat Unit
+	spriteType = {
+		name = "gfx_army_type_corvette_boat_unit"
+		textureFile = "gfx/interface/planetview/patrolboatunit.dds"
+	}
 }

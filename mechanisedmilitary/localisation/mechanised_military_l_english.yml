@@ -154,6 +154,10 @@
  
  building_mechmil_small_naval_dock:0 "Small Naval Dock"
  building_mechmil_small_naval_dock:0 "Small Naval Dock that allows the training of some small water craft military vehicles."
+ building_mechmil_medium_naval_dock:0 "Medium Naval Dock"
+ building_mechmil_medium_naval_dock:0 "Medium Naval Dock that allows the training of some medium water craft military vehicles."
+ building_mechmil_large_naval_dock:0 "Large Naval Dock"
+ building_mechmil_large_naval_dock:0 "Large Naval Dock that allows the training of some large water craft military vehicles."
  tech_mechmilarmy_naval_warfare:0 "Naval Warfare"
  tech_mechmilarmy_naval_warfare_desc:0 "Naval Warfare"
  tech_mechmilarmy_naval_warfare_2:0 "Reinforced Hulls"
