@@ -1,5 +1,5 @@
 ## Mechanised Military
-# Bomb Drones and Dogs
+# Tech 1 - Bomb Drones and Dogs
 tech_mechmilarmy_advanced_armies1 = {
 	cost = @tier1cost1
 	area = society
@@ -26,7 +26,7 @@ tech_mechmilarmy_advanced_armies1 = {
 	}
 }
 
-# Mortars
+# Tech 2 - Mortars
 tech_mechmilarmy_advanced_armies2 = {
 	cost = @tier2cost1
 	area = society
@@ -52,7 +52,7 @@ tech_mechmilarmy_advanced_armies2 = {
 		}
 	}
 }
-
+# Tech 3 - Artillery
 tech_mechmilarmy_artillery = {
 	cost = @tier2cost1
 	area = society
@@ -80,6 +80,7 @@ tech_mechmilarmy_artillery = {
 }
 
 ## Armoured Vehicle Techs
+# Tech 4 - Armoured Vehicles
 tech_mechmilarmy_armoured_vehicles = {
 	cost = @tier2cost2
 	area = engineering
@@ -107,6 +108,7 @@ tech_mechmilarmy_armoured_vehicles = {
 	}
 }
 
+# Tech 5 - Armoured Vehicles Upgrade 1
 tech_mechmilarmy_armoured_vehicles_upgrade_one = {
 	cost = @tier2cost2
 	area = engineering
@@ -134,7 +136,7 @@ tech_mechmilarmy_armoured_vehicles_upgrade_one = {
 }
 
 ## Tank Techs
-# Tank Factories (Gives access to Mk1, but allows Mk1 - Mk3 to be built here)
+# Tech 6 - Tank Factories (Gives access to Mk1, but allows Mk1 - Mk3 to be built here)
 tech_mechmilarmy_tank_factory = {
 	cost = @tier2cost2
 	area = engineering
@@ -163,7 +165,7 @@ tech_mechmilarmy_tank_factory = {
 	}
 }
 
-# Tank Upgrades 1 (Gives access to Mk2)
+# Tech 7 - Tank Upgrades 1 (Gives access to Mk2)
 tech_mechmilarmy_tank_upgrade_1 = {
 	cost = @tier2cost2
 	area = engineering
@@ -190,7 +192,7 @@ tech_mechmilarmy_tank_upgrade_1 = {
 	}
 }
 
-# Tank Upgrades 2 (Gives access to Mk3)
+# Tech 8 - Tank Upgrades 2 (Gives access to Mk3)
 tech_mechmilarmy_tank_upgrade_2 = {
 	cost = @tier2cost2
 	area = engineering
@@ -217,7 +219,7 @@ tech_mechmilarmy_tank_upgrade_2 = {
 	}
 }
 
-# Mega Tank Factories (Gives access to Mk4 - Mk6)
+# Tech 9 - Mega Tank Factories (Gives access to Mk4 - Mk6)
 tech_mechmilarmy_mega_tank_factory = {
 	cost = @tier2cost3
 	area = engineering
@@ -244,7 +246,7 @@ tech_mechmilarmy_mega_tank_factory = {
 	}
 }
 
-# Tank Upgrades 3 (Gives access to Mk5)
+# Tech 10 - Tank Upgrades 3 (Gives access to Mk5)
 tech_mechmilarmy_tank_upgrade_3 = {
 	cost = @tier2cost3
 	area = engineering
@@ -271,7 +273,7 @@ tech_mechmilarmy_tank_upgrade_3 = {
 	}
 }
 
-# Tank Upgrades 4 (Gives access to Mk6)
+# Tech 11 - Tank Upgrades 4 (Gives access to Mk6)
 tech_mechmilarmy_tank_upgrade_4 = {
 	cost = @tier3cost1
 	area = engineering
@@ -299,6 +301,7 @@ tech_mechmilarmy_tank_upgrade_4 = {
 }
 
 ## Naval Techs
+# Tech 12 - Naval Warfare
 tech_mechmilarmy_naval_warfare = {
 	cost = @tier2cost2
 	area = engineering
@@ -329,6 +332,7 @@ tech_mechmilarmy_naval_warfare = {
 	}
 }
 
+# Tech 13 - Naval Warfare 2
 tech_mechmilarmy_naval_warfare_2 = {
 	cost = @tier2cost2
 	area = engineering
@@ -358,6 +362,7 @@ tech_mechmilarmy_naval_warfare_2 = {
 	}
 }
 
+# Tech 14 - Naval Warfare 3
 tech_mechmilarmy_naval_warfare_3 = {
 	cost = @tier2cost2
 	area = engineering
@@ -387,6 +392,7 @@ tech_mechmilarmy_naval_warfare_3 = {
 	}
 }
 
+# Tech 15 - Submarines
 tech_mechmilarmy_submarines = {
 	cost = @tier2cost2
 	area = engineering

@@ -1,6 +1,6 @@
 # Mechanised Military Assault Armies
 ## Human Armies
-# Anti-tank unit
+# 1 Anti-tank unit
 anti_tank_unit = {
 	defensive = yes
 	is_pop_spawned = yes
