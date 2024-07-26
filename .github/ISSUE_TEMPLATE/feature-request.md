@@ -7,7 +7,7 @@ assignees: JordanPicton
 
 ---
 
-**Please Give A Category: **
+**Please Give A Category:**
 Assault/Defence/Technology/Building
 
 **Species for the request (if applicable):**
