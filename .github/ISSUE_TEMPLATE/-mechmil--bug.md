@@ -24,8 +24,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Mod/Game Version**
- - Stellaris: 3.12.5
- - Mod: 0.0.380
+ - Stellaris: e.g. 3.12.5
+ - Mod: e.g. 0.0.380
 
 **Additional context**
 Add any other context about the problem here.

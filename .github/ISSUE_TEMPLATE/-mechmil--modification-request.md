@@ -1,11 +1,14 @@
 ---
-name: Modification Request
-about: Suggestion
-title: "[MOD]"
-labels: modification
+name: "[MechMil] Modification Request"
+about: Mechanised Military Modification Suggestion
+title: "[MechMil - MOD]"
+labels: mechanisedmilitary, modification
 assignees: JordanPicton
 
 ---
+
+**What Mod Is This For?**
+- Mechanised Military
 
 **Please Give A Category:**
 Balance/Change etc.
