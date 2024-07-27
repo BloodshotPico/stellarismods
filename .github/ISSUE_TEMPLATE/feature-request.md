@@ -7,11 +7,10 @@ assignees: JordanPicton
 
 ---
 
-**Please Give A Category:**
-Assault/Defence/Technology/Building
+**What Mod is this for?**
 
-**Species for the request (if applicable):**
-Human/Plantoid/Fungoid etc.
+**General Information**
+- Mechanised Infantry Information [Category: Assault/Defence/Technology/Building] [Species: Human/Plantoid/Fungoid etc.]
 
 **Describe your feature request:**
 Add something like blah blah blah...
