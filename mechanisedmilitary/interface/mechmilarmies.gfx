@@ -79,4 +79,9 @@ spriteTypes = {
 		name = "gfx_army_type_frigate_boat_unit"
 		textureFile = "gfx/interface/planetview/frigateboatunit.dds"
 	}
+	# Destroyer Boat Unit
+	spriteType = {
+		name = "gfx_army_type_destroyer_boat_unit"
+		textureFile = "gfx/interface/planetview/destroyerboatunit.dds"
+	}
 }
