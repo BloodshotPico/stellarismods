@@ -1336,3 +1336,41 @@ unmanned_drone_unit = {
 		}
 	}
 }
+
+# 35 Combat Transport Helicopter (Delivers Units)
+combat_transport_helicopter_unit = {
+	damage = 1.25
+	health = 1.1
+	morale = 1.2
+	has_morale = yes
+	morale_damage = 1.1
+	collateral_damage = 1.3
+	war_exhaustion = 1.2
+	time = 120
+	icon = gfx_army_type_bomb_drone_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_ariel_hanger"
+		OR = {
+			has_building = building_mechmil_medium_ariel_hangar
+		}
+	}
+}
