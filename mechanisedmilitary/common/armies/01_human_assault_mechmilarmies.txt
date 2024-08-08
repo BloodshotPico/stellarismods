@@ -73,45 +73,7 @@ paratrooper_unit = {
 	}
 }
 
-# 3 Bomb Drone Unit
-bomb_drone_unit = {
-	damage = 1.25
-	health = 1.1
-	morale = 1.2
-	morale_damage = 1.1
-	collateral_damage = 1.3
-	war_exhaustion = 1.2
-	time = 120
-	icon = gfx_army_type_bomb_drone_unit
-	prerequisites = {
-		tech_mechmilarmy_advanced_armies1
-	}
-	resources = {
-		category = armies
-		cost = {
-			minerals = 150
-			food = 50
-			alloys = 10
-		}
-		upkeep = {
-			energy = 1.5
-			alloys = 0.1
-		}
-	}
-	potential = {
-		from = {
-			is_species_class = HUM
-		}
-	}
-	allow = {
-		custom_tooltip = "requires_stronghold"
-		OR = {
-			has_building = building_stronghold
-		}
-	}
-}
-
-# 4 Commando Unit
+# 3 Commando Unit
 commando_unit = {
 	damage = 3
 	health = 2
@@ -148,7 +110,7 @@ commando_unit = {
 	}
 }
 
-# 5 Mortar Unit
+# 4 Mortar Unit
 mortar_unit = {
 	damage = 1.6
 	health = 0.8
@@ -186,7 +148,7 @@ mortar_unit = {
 	}
 }
 
-# 6 Artillery
+# 5 Artillery
 artillery_unit = {
 	damage = 10
 	health = 0.7
@@ -224,7 +186,7 @@ artillery_unit = {
 }
 
 ## Armored Vehicles
-# 7 Light Armoured Vehicles
+# 6 Light Armoured Vehicles
 lav_unit = {
 	damage = 8
 	health = 5
@@ -266,7 +228,7 @@ lav_unit = {
 	}
 }
 
-# 8 Armoured Personnel Carriers
+# 7 Armoured Personnel Carriers
 apc_unit = {
 	damage = 8
 	health = 5
@@ -1255,6 +1217,84 @@ nuclear_submarine_unit = {
 		custom_tooltip = "requires_naval_dock"
 		OR = {
 			has_building = building_mechmil_large_naval_dock
+		}
+	}
+}
+
+## Ariel Units
+
+# 32 Bomb Drone
+bomb_drone_unit = {
+	damage = 1.25
+	health = 1.1
+	morale = 1.2
+	has_morale = yes
+	morale_damage = 1.1
+	collateral_damage = 1.3
+	war_exhaustion = 1.2
+	time = 120
+	icon = gfx_army_type_bomb_drone_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_ariel_hanger"
+		OR = {
+			has_building = building_mechmil_small_ariel_hangar
+		}
+	}
+}
+
+# 33 Unmanned Drones
+unmanned_drone_unit = {
+	damage = 1.25
+	health = 1.1
+	morale = 1.2
+	has_morale = yes
+	morale_damage = 1.1
+	collateral_damage = 1.3
+	war_exhaustion = 1.2
+	time = 120
+	icon = gfx_army_type_bomb_drone_unit
+	prerequisites = {
+		tech_mechmilarmy_advanced_armies1
+	}
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2750
+			alloys = 120
+		}
+		upkeep = {
+			energy = 3
+			alloys = 1.2
+		}
+	}
+	potential = {
+		from = {
+			is_species_class = HUM
+		}
+	}
+	allow = {
+		custom_tooltip = "requires_ariel_hanger"
+		OR = {
+			has_building = building_mechmil_medium_ariel_hangar
 		}
 	}
 }
