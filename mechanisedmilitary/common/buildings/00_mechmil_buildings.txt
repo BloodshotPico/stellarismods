@@ -15,7 +15,6 @@ building_mechmil_armoured_vehicle_plant = {
 
 	potential = {
 		NOT = { has_modifier = resort_colony }
-		is_planet_class = pc_ocean
 	}
 
 	triggered_planet_modifier = {

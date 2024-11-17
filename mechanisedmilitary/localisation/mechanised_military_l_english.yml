@@ -39,6 +39,21 @@
  bomb_drone_unit_plural:0 "Dog Units"
  bomb_drone_unit_desc:0 "A bomb drone unit is a military team that operates unmanned aerial vehicles equipped with explosives, designed for precise, remote attacks on enemy targets."
  
+ # Radio Controlled Drone
+ rc_drone_unit:0 "Radio Controlled Drone Unit"
+ rc_drone_unit_plural:0 "Radio Controlled Drone Units"
+ rc_drone_unit_desc:0 "A versatile, remotely piloted system used for reconnaissance, target acquisition, and tactical support. Equipped with advanced optics and GPS, it provides real-time data while keeping operators safe from harm."
+ 
+ # Unmanned Drone
+ unmanned_drone_unit:0 "Unmanned Drone Unit"
+ unmanned_drone_unit_plural:0 "Unmanned Drone Units"
+ unmanned_drone_unit_desc:0 "An autonomous system for reconnaissance, surveillance, and tactical missions. Equipped with advanced sensors and AI, it operates independently to provide real-time intelligence while minimizing human risk."
+ 
+ # Combat Transport Helicopter
+ unmanned_drone_unit:0 "Combat Transport Helicopter"
+ unmanned_drone_unit_plural:0 "Combat Transport Helicopters"
+ unmanned_drone_unit_desc:0 "A versatile aircraft designed for troop deployment, equipment transport, and close air support. Armed and armored, it provides mobility and firepower in hostile environments.."
+ 
  ## Armoured Vehicles
  # Units
  lav_unit:0 "Light Armoured Vehicle"
