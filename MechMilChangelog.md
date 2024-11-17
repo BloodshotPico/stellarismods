@@ -17,7 +17,7 @@
 - Added Combat Transport Helicopter description.
 
 ### Fixed:
-- The Vehicle Armory from not showing to be built.
+- The Vehicle Armoury from not showing to be built.
 - Fixed Bomb Drone Unit description.
 
 ---
